@@ -1,0 +1,19 @@
+.fichalanarey{width:410px;max-width:100%;margin:20px auto;padding:20px 23px 0;background:transparent;color:inherit;font:12px/1.35 "Courier New",monospace;box-sizing:border-box;overflow:hidden;border:1px solid #888}
+.fichalanarey *{box-sizing:border-box}
+.fichalanarey .flr-cabecera{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:20px}
+.fichalanarey .flr-imagen-central{width:62%;height:48px;object-fit:cover;display:block}
+.fichalanarey .flr-corazon{font-size:22px;font-weight:bold;line-height:1;flex-shrink:0}
+.fichalanarey .flr-linea{height:1px;background:currentColor;margin:12px 0;opacity:.8}
+.fichalanarey .flr-titulo{text-align:center;font:italic bold clamp(28px,8vw,48px)/1.1 Georgia,serif;letter-spacing:-2px;margin:6px 0 8px;overflow-wrap:anywhere}
+.fichalanarey .flr-subtitulo{text-align:center;font-size:10px;font-weight:bold;letter-spacing:.5px;margin-bottom:12px}
+.fichalanarey .flr-seccion{margin:14px 0 17px}
+.fichalanarey .flr-etiqueta{font-size:15px;font-weight:bold;text-transform:uppercase;letter-spacing:1px;margin-bottom:7px}
+.fichalanarey .flr-dato-contenido{line-height:1.5;text-align:justify;overflow-wrap:anywhere}
+.fichalanarey .flr-fila,.fichalanarey .flr-extra-fila{display:flex;gap:12px;align-items:flex-start}
+.fichalanarey .flr-indice,.fichalanarey .flr-fotos-extra{width:70px;flex-shrink:0;display:flex;flex-direction:column;gap:7px}
+.fichalanarey .flr-foto,.fichalanarey .flr-fotos-extra img{display:block;width:68px;height:68px;object-fit:cover;filter:grayscale(100%);border:0}
+.fichalanarey .flr-contenido,.fichalanarey .flr-extra-contenido{flex:1;min-width:0}
+.fichalanarey .flr-precio{display:flex;justify-content:space-between;gap:5px;font-size:13px;font-weight:bold;margin-bottom:12px}
+.fichalanarey .flr-dato-corto{padding-bottom:5px;margin-bottom:7px;overflow-wrap:anywhere}
+.fichalanarey .flr-extra{margin-top:8px}
+.fichalanarey .flr-extra .flr-dato-corto:last-child{margin-bottom:0}
